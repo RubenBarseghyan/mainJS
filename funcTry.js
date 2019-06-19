@@ -53,7 +53,6 @@ console.log(person1, 'person1');
 const person2 = Object.create(person1);//new object generate from the object which mention in parametr
 //new empty object __proto__refers to persin 1
 console.log(person2, 'person2');
-console.log(person2 instanceof person1);
 
 
 // instanceof is a prototype identity check.
